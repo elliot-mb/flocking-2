@@ -13,3 +13,5 @@ Steering force (green) is calculated by simply subtracting the velocity vector (
 The target vector has a set magnitude which can be thought of as maximum speed, and its drawn in the direction of the goal.\
 Maximum steering force is reached fairly quickly in this gif; observe that the green vector rarely changes magnitude. There are parameters for these two maximums which change how the agent behaves. Each behaviour (cohesion, avoidance, alignment) has these parameters.
 
+# So why make another one?
+This one is far more reliable across different parameters and behaves as it should far more often than the previous version lol.
