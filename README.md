@@ -14,4 +14,5 @@ The target vector has a set magnitude which can be thought of as maximum speed, 
 Maximum steering force is reached fairly quickly in this gif; observe that the green vector rarely changes magnitude. There are parameters for these two maximums which change how the agent behaves. Each behaviour (cohesion, avoidance, alignment) has these parameters.
 
 # So why make another one?
-This one is far more reliable across different parameters and behaves as it should far more often than the previous version lol.
+This one is far more reliable across different parameters and behaves as it should far more often than the previous version. Also since it uses simple and effective steering rather than a naive implementation of it, it pertains to the definition of flocking better.\
+Another advantage this version has is it gives agents a restricted FOV around themselves, which stops them seeing backwards. Backwards vision gave me lots of issues in the previous version.
