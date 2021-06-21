@@ -9,6 +9,6 @@ Simulation of 400 agents:\
 How the steering force behaves:\
 ![dag nabbit4](https://user-images.githubusercontent.com/45922387/122754275-5ac3ca80-d28b-11eb-8e65-b6ab1b3e9da3.gif)\
 The force steering the agent towards its goal is trying to change its velocity to eventually match the target vector.
-Steering force (green) is calculated by simply subtracting the velocity vector (red) from the target vector (blue). The target vector has a set magnitude which can be thought of as maximum speed, and its drawn in the direction of the goal.\
+Steering force (green) is calculated by simply subtracting the velocity vector (red) from the target vector (blue), i.e. the difference between them.\The target vector has a set magnitude which can be thought of as maximum speed, and its drawn in the direction of the goal.\
 Maximum steering force is reached fairly quickly in this gif; observe that the green vector rarely changes magnitude. There are parameters for these two maximums which change how the agent behaves. Each behaviour (cohesion, avoidance, alignment) has these parameters.
 
