@@ -1,4 +1,5 @@
 # Flocking 2
+[Visit deployment.](https://elliot-mb.github.io/flocking-2/)\
 A pure js implementation of my own flocking algorithm.\
 It's my second attempt at flocking simulation ([first attempt](https://github.com/ElliotSemiColon/flocking)).\
 This program will run best in chrome (it can be run using [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)).
